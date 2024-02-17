@@ -2,21 +2,39 @@
 font-family: "Roboto", sans-serif;
 */
 
-.header {
-    line-height: 0.5;
+p,
+.header,
+.main,
+.bio {
+    font-family: "Roboto", sans-serif;
+    color: #000000;
 }
+
+/*
+HEADER
+*/
 
 .header, 
 p {
     text-align: center;
 }
 
-p,
-.header,
-.main,
-.bio {
-    font-family: "Roboto", sans-serif;
-    color: black;
+.header {
+    line-height: 0.5;
+}
+
+/*
+BODY
+*/
+
+h1,
+h2,
+h3 {
+    margin-top: 30px;
+}
+
+h3 
+    {margin-bottom: auto;
 }
 
 h4,
@@ -25,30 +43,21 @@ ul {
     margin: 5px;
 }
 
-h3 {margin-top: 30px;
-    margin-bottom: auto;
-
-}
-
 ul,
 p {
     line-height: 1.5;
-}
-
-h1,
-h2 {
-    margin-top: 30px;
-}
-
-hr {
-    border: 1px solid black;
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #education,
 #prof {
     margin-top: auto;
     margin-bottom: -20px;
+    font-weight: 550;
+}
+
+hr {
+    border: 1.5px solid #3D3D3D;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
