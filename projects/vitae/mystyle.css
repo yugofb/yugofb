@@ -1,0 +1,54 @@
+/*
+font-family: "Roboto", sans-serif;
+*/
+
+.header {
+    line-height: 0.5;
+}
+
+.header, 
+p {
+    text-align: center;
+}
+
+p,
+.header,
+.main,
+.bio {
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+h4,
+i,
+ul {
+    margin: 5px;
+}
+
+h3 {margin-top: 30px;
+    margin-bottom: auto;
+
+}
+
+ul,
+p {
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    margin-top: 30px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#education,
+#prof {
+    margin-top: auto;
+    margin-bottom: -20px;
+}
