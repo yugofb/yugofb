@@ -7,7 +7,10 @@ font-family: "Itim", cursive;
 
 header {
     background-color: #92cae0;
-    height: 150px;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .stripe {
@@ -30,7 +33,7 @@ h1 {
     -webkit-text-stroke-color: #17495d;
     text-shadow: 5px 5px #17495d;
     margin-inline-start: 20px;
-    padding-top: 3%;
+
 }
 
 h1,
@@ -141,6 +144,7 @@ footer {
 
 body, html {
     height: 100%;
+    width: 100%;
 }
 
 .hero-image {

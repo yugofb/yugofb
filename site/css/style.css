@@ -1,0 +1,149 @@
+/*
+font-family: "Cormorant Infant", serif;
+font-family: "Nunito Sans", sans-serif;
+font-family: "Blinker", sans-serif;
+*/
+
+h1 {
+    font-family: "Cormorant Infant", serif;
+    font-size: 3em;
+    margin-left: 0.3em;
+}
+
+h2,
+h3,
+a,
+p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.btn-light,
+nav {
+    font-family: "Blinker", sans-serif;
+}
+
+#footbutt {
+    color: #000000;
+}
+
+nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0.3em;
+    font-size: 1.05em;
+}
+
+nav a {
+    margin-left: 0.5em
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #517a5f;
+    padding: 1em;
+}
+
+main {
+    background-color: #f3f1ec;
+    padding-bottom: 3em;
+}
+
+.col-md-4 img {
+    margin-top: 3em;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+a {
+    display: inline-flex;
+}
+
+header a:link, 
+h1,
+#footblurb,
+#address,
+footer a:link {
+    color: #f7fcff;
+}
+
+
+header a:visited,
+footer a:visited {
+    color: #31402F;
+}
+
+header a:hover,
+footer a:hover {
+    color: #9cbba4;
+}
+
+main a:link {
+    color: #517a5f;
+}
+
+main a:visited {
+    color: #31402F;
+}
+
+main a:hover {
+    color: #42634d;
+}
+
+footer {
+    background-color: #517a5f;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#foot {
+    display: flex;
+
+}
+
+.btn-light {
+    width: 100%;
+    background-color: #f3f1ec;
+    text-transform: uppercase;
+    font-size: .85em;
+    letter-spacing: 2px;
+}
+
+.btn-light:hover {
+    background-color: #bad6c4;
+}
+  
+  /* 
+  |||
+  vvv CCS specifically tied to resume page
+  */
+
+  h2 {
+    padding-top: 1em;
+    padding-bottom: 0.3em;
+    color: #31402F;
+  }
+
+  .rowco {
+    margin-left: 20em;
+    padding-bottom: 2em;
+  }
+
+  #jobt,
+  #cot {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+
+  #dates {
+    font-family: "Blinker", sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    padding-bottom: .3em;
+  }
+
+  
