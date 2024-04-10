@@ -1,0 +1,118 @@
+/* 
+HEADER: 
+font-family: "Italiana", sans-serif;
+- h1, 8em
+
+font-family: "Abel", sans-serif;
+- h2, 1.1em
+- p
+
+BODY:
+font-family: "Roboto", sans-serif;
+- 16px, line-height 1.7
+
+GRAPHICS BOXES:
+- h3: Abel, leter-spacing -1.2px
+- p: Abel, 1.2em
+
+SECTION:
+- ALL sections have 5% padding on the top and bottom
+
+COLORS: 
+#0C0E0C
+#FAFCEF
+#E18D58
+#F9F1E5
+*/
+
+header{
+    padding: 30% 5%;
+    min-height: 10vh;
+    text-shadow: 5px 5px 10px #5D5E4F;
+    background-image: url(../images/restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    color: #E18D58;
+}
+
+header h1{
+    font-family: "Italiana", sans-serif;
+    font-size: 8em;
+    color: #FAFCEF;
+    text-align: center;
+}
+
+header h2{
+    font-family: "Abel", sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: #FAFCEF;
+    text-align: center;
+}
+
+header p{
+    font-family: "Abel", sans-serif;
+    color: #FAFCEF;
+    text-align: center;
+}
+
+body{
+    background: #0c0e0c;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #FAFCEF;
+}
+
+@media (min-width: 576px) {
+    .graphics img{width: 95%;
+    }
+}
+
+@media (min-width: 768px) {
+    .graphics img{width: 75%;}
+}
+
+section,
+footer{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.container{
+    width: 55%;
+}
+
+.graphics{
+    font-family: "Abel", sans-serif;
+    color: #0c0e0c;
+    background-color: #F9F1E5;
+}
+
+.charts{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.graphics h3{
+    text-align: center;
+    letter-spacing: -1.2px;
+}
+
+.graphics .col-md-3{
+    margin: auto;
+}
+
+.graphics p{
+    font-size: 1.2em;
+}
+
+#chart-full{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
