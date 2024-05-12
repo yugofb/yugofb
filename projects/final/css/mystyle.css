@@ -47,9 +47,9 @@ header h1 {
 }
 
 header h2 {
-        font-family: "Abel", sans-serif;
-        font-size: 1.8em;
-        -webkit-text-stroke-width: 0.2px;
+    font-family: "Abel", sans-serif;
+    font-size: 1.8em;
+    -webkit-text-stroke-width: 0.2px;
 }
 
 header p {
@@ -63,6 +63,15 @@ header p {
 main p {
     font-family: "Ubuntu Sans", sans-serif;
     font-size: 1em;
+}
+
+figcaption {
+    font-family: "Abel", sans-serif;
+    font-size: .8em;
+}
+
+.dark figcaption {
+    color: #f3f1ec;
 }
 
 .graphs h3 {
