@@ -1,0 +1,116 @@
+/*
+font-family: "Libre Baskerville", serif;
+font-family: "Abel", sans-serif;
+font-family: "Ubuntu Sans", sans-serif;
+
+layout notes in GREEN notebook; alternate light and dark bgs ദ്ദി( ˶^ᗜ^˶ );
+*/
+
+.light {
+    background-color: #f3f1ec;
+    color: black;
+}
+
+.dark {
+    background-color: #1c1717;
+    color: #fff7f7;
+}
+
+.dark,
+.light {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+header{
+    padding: 30% 5%;
+    min-height: 5vh;
+    text-shadow: 5px 5px 10px #433838;
+    background-image: url(../images/aaron-burden-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1,
+header h2,
+header p {
+    color: #fff7f7;
+    text-align: center;
+    -webkit-text-stroke-color: #222426;
+}
+
+header h1 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 4em;
+    -webkit-text-stroke-width: 0.4px;
+}
+
+header h2 {
+        font-family: "Abel", sans-serif;
+        font-size: 1.8em;
+        -webkit-text-stroke-width: 0.2px;
+}
+
+header p {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 1em;
+    -webkit-text-stroke-width: 0.05px;
+}
+
+/* main body */
+
+main p {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 1em;
+}
+
+.graphs h3 {
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .graphs img{width: 95%;
+    }
+}
+
+@media (min-width: 768px) {
+    .graphs img{width: 75%;}
+}
+
+.graphs img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo {
+    display: inline-flex
+
+}
+
+.graphs {
+    padding-bottom: 2%;
+}
+
+.ytspace {
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+a {
+    color: rgb(221, 172, 113);
+}
+
+#xtrapad {
+    padding-bottom: 1%;
+}
+
+/* footer */
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #222426;
+    color: #fff7f7;
+}
